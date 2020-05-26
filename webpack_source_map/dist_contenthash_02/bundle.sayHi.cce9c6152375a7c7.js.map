@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/sayHi.js"
+  ],
+  "names": [
+    "sayHi",
+    "console",
+    "log"
+  ],
+  "mappings": "yFAAO,SAASA,IACdC,QAAQC,IAAI,kBADd",
+  "file": "bundle.sayHi.cce9c6152375a7c7.js",
+  "sourcesContent": [
+    "export function sayHi() {\r\n  console.log('Hello~Webpack~')\r\n}\r\n"
+  ],
+  "sourceRoot": ""
+}

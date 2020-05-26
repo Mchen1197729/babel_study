@@ -1,0 +1,17 @@
+{
+  "version": 3,
+  "sources": [
+    "webpack:///./src/add.js"
+  ],
+  "names": [
+    "add",
+    "x",
+    "y"
+  ],
+  "mappings": "yFAAO,SAASA,EAAIC,EAAGC,GACrB,OAAOD,EAAIC,EADb",
+  "file": "bundle.add.7e1b915fcd40c349.js",
+  "sourcesContent": [
+    "export function add(x, y) {\r\n  return x + y\r\n}\r\n"
+  ],
+  "sourceRoot": ""
+}

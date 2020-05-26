@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[2],{49:function(n,o,c){"use strict";function e(){console.log("Hello~Webpack~")}c.r(o),c.d(o,"sayHi",(function(){return e}))}}]);
+//# sourceMappingURL=bundle.sayHi.cce9c6152375a7c7.js.map

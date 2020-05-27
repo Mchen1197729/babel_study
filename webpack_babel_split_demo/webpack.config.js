@@ -6,7 +6,7 @@ module.exports = {
 
   output: {
     filename: "bundle.[name].js",
-    path: resolve(__dirname, 'dist_contenthash_02'),
+    path: resolve(__dirname, 'dist_public_path'),
     // /*
     // * chunkFilename决定非入口chunk的名称
     // * 1.如果在import()动态导入的时候没有提供特殊的注释 则默认name为 `bundle[id].js` id从1开始递增
@@ -15,6 +15,7 @@ module.exports = {
     // *     而且此时可以不用写chunkFilename属性 因为webpack默认就会将文件名命名为bundle.[name].js
     // * */
     chunkFilename: 'bundle.[name].[contenthash:16].js',
+    publicPath: "http://localhost:4000/public"
   },
 
   module: {

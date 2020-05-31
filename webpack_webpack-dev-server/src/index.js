@@ -11,16 +11,17 @@ button.addEventListener('click', e => {
   number()
   bye()
 })
+const cache = [];
 
+const files = require.context('.', false, /\.js$/)
+console.dir(files)
+files.keys().forEach(file => cache.push(files.id))
+
+console.log(cache)
 
 if (module.hot) {
-  // module.hot.check(true).then(outdatedModules => {
-  //   // 超时的模块……
-  // }).catch(error => {
-  //   // 捕获错误
-  // });
-  console.dir(module.hot)
-  module.hot.accept('./add.js', () => {
+  // console.dir(module.hot)
+  module.hot.accept(cache, () => {
 
   })
 }
